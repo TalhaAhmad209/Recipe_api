@@ -45,8 +45,8 @@ python manage.py runserver
 
 The API will be accessible at http://localhost:8000/api/recipes/.
 
-## Usage
-# Create a Recipe
+# Usage
+## Create a Recipe
 
 Endpoint: POST /api/recipes/
 
@@ -56,7 +56,7 @@ title (string): The title of the recipe.
 ingredients (string): The list of ingredients required for the recipe.
 instructions (string): The step-by-step instructions to prepare the recipe.
 
-# Retrieve a List of Recipes
+## Retrieve a List of Recipes
 
 Endpoint: GET /api/recipes/
 
@@ -68,13 +68,13 @@ ingredients (string): The list of ingredients required for the recipe.
 instructions (string): The step-by-step instructions to prepare the recipe.
 created_at (string): The date and time when the recipe was created.
 
-#Retrieve a Specific Recipe
+## Retrieve a Specific Recipe
 
 Endpoint: GET /api/recipes/<id>/
 
 Retrieve the details of a specific recipe by sending a GET request to the above endpoint, replacing <id> with the actual recipe ID. The response will include the fields mentioned above.
 
-#Delete a Recipe
+## Delete a Recipe
 
 Endpoint: DELETE /api/recipes/<id>/delete/
 
